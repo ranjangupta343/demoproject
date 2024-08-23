@@ -2,18 +2,18 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-23T15:48:19 IST" name="Suite1" finished-at="2024-08-23T15:48:41 IST" duration-ms="21651">
+  <suite started-at="2024-08-23T16:01:20 IST" name="Suite1" finished-at="2024-08-23T16:01:43 IST" duration-ms="23552">
     <groups>
     </groups>
-    <test started-at="2024-08-23T15:48:19 IST" name="Test1" finished-at="2024-08-23T15:48:41 IST" duration-ms="21651">
+    <test started-at="2024-08-23T16:01:20 IST" name="Test1" finished-at="2024-08-23T16:01:43 IST" duration-ms="23552">
       <class name="Test.BrowserTest1">
-        <test-method signature="Hello1()[pri:0, instance:Test.BrowserTest1@27f981c6]" started-at="2024-08-23T15:48:19 IST" name="Hello1" finished-at="2024-08-23T15:48:41 IST" duration-ms="21583" status="PASS">
+        <test-method signature="Hello1()[pri:0, instance:Test.BrowserTest1@27f981c6]" started-at="2024-08-23T16:01:20 IST" name="Hello1" finished-at="2024-08-23T16:01:43 IST" duration-ms="23448" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Hello1 -->
       </class> <!-- Test.BrowserTest1 -->
       <class name="Test.BrowserTest">
-        <test-method signature="Hello()[pri:0, instance:Test.BrowserTest@23c30a20]" started-at="2024-08-23T15:48:19 IST" name="Hello" finished-at="2024-08-23T15:48:26 IST" duration-ms="6681" status="PASS">
+        <test-method signature="Hello()[pri:0, instance:Test.BrowserTest@23c30a20]" started-at="2024-08-23T16:01:20 IST" name="Hello" finished-at="2024-08-23T16:01:27 IST" duration-ms="7466" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Hello -->
