@@ -10,25 +10,13 @@ public class BrowserTest {
 	//public String baseUrl = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
 	public WebDriver driver ; 
     @Test
-	public void Hello() throws InterruptedException
+	public void Test1() throws InterruptedException
 	{
     	driver=new ChromeDriver();
-
-    	driver.get("https://www.selenium.dev/selenium/web/web-form.html");
-
-        driver.getTitle();
-
         driver.manage().timeouts().implicitlyWait(Duration.ofMinutes(1000));
-
-        WebElement textBox = driver.findElement(By.name("my-text"));
-        WebElement submitButton = driver.findElement(By.cssSelector("button"));
-
-        textBox.sendKeys("Selenium");
-        submitButton.click();
-
-        WebElement message = driver.findElement(By.id("message"));
-        message.getText();
-
+        driver.manage().window().fullscreen();
+        driver.get("https://automationtalks.com/");
+        driver.getTitle();
         driver.quit();
 	}
 

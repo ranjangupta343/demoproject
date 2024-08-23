@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-22T13:54:34 IST" name="Default suite" finished-at="2024-08-22T13:54:37 IST" duration-ms="2801">
+  <suite started-at="2024-08-23T16:23:54 IST" name="Suite" finished-at="2024-08-23T16:23:59 IST" duration-ms="5755">
     <groups>
     </groups>
-    <test started-at="2024-08-22T13:54:34 IST" name="Default test" finished-at="2024-08-22T13:54:37 IST" duration-ms="2801">
+    <test started-at="2024-08-23T16:23:54 IST" name="Test" finished-at="2024-08-23T16:23:59 IST" duration-ms="5755">
       <class name="Test.BrowserTest">
-        <test-method signature="Hello()[pri:0, instance:Test.BrowserTest@942a29c]" started-at="2024-08-22T13:54:34 IST" name="Hello" finished-at="2024-08-22T13:54:37 IST" duration-ms="2745" status="PASS">
+        <test-method signature="Test1()[pri:0, instance:Test.BrowserTest@942a29c]" started-at="2024-08-23T16:23:54 IST" name="Test1" finished-at="2024-08-23T16:23:59 IST" duration-ms="5646" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Hello -->
+        </test-method> <!-- Test1 -->
       </class> <!-- Test.BrowserTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
